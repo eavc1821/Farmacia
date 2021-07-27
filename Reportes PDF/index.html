@@ -1,0 +1,349 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>FARMACY</title>
+    <!-- Google Font - Iconos -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+    <!-- Bootstrap Core Css -->
+    <link href="../plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Waves Effect Css -->
+    <link href="../plugins/node-waves/waves.css" rel="stylesheet" />
+    <!-- Animation Css -->
+    <link href="../plugins/animate-css/animate.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/themes/all-themes.css" rel="stylesheet" />
+
+</head>
+
+<body class="theme-red">
+    <!-- Page Loader -->
+    <div class="page-loader-wrapper">
+        <div class="loader">
+            <div class="preloader">
+                <div class="spinner-layer pl-red">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+            <p>Cargando...</p>
+        </div>
+    </div>
+    <!-- #END# Page Loader -->
+
+    <!-- Overlay For Sidebars -->
+    <div class="overlay"></div>
+    <!-- #END# Overlay For Sidebars -->
+
+    <!-- LUPA -->
+    <div class="search-bar">
+        <div class="search-icon">
+            <i class="material-icons"></i>
+        </div>
+        <input type="text" placeholder="Buscar...">
+        <div class="close-search">
+            <i class="material-icons">X</i>
+        </div>
+    </div>
+    <!-- //LUPA -->
+
+    <!-- Top Bar -->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
+                <a href="javascript:void(0);" class="bars"></a>
+                <a class="navbar-brand" href="../index.html"> Farmacy - DASHBOARD </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                    <!-- Call Search -->
+                    <li><a href="javascript:void(0);" class="js-search" data-close="true"><i class="material-icons">search</i></a></li>
+                    <!-- #END# Call Search -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- #Top Bar -->
+
+    <section>
+        <!-- Left Sidebar -->
+        <aside id="leftsidebar" class="sidebar">
+            <!-- User Info -->
+            <div class="user-info">
+                <div class="image">
+                    <img src="../images/Usuario11.png" width="48" height="48" alt="User" />
+                </div>
+                <div class="info-container">
+                    <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Walter Benitez</div>
+                    <div class="email">willbloodgames@gmail.com</div>
+                    <div class="btn-group user-helper-dropdown">
+                        <i class="material-icons" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">keyboard_arrow_down</i>
+                        <ul class="dropdown-menu pull-right">
+                            <li><a href="Configuraciones.html"><i class="material-icons">brightness_low</i>Mi Cuenta</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li role="separator" class="divider"></li>
+
+                            <li><a href="Login.html"><i class="material-icons">input</i>Cerrar Sesión</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- #User Info -->
+
+
+            <!-- Menu -->
+            <div class="menu">
+                <ul class="list">
+                    <li class="header">MENÚ DE NAVEGACIÓN</li>
+                    <li>
+                        <a href="../index.html">
+                            <i class="material-icons">home</i>
+                            <span>INICIO</span>
+                        </a>
+                    </li>
+<!--======================================================================================================-->
+					<li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">shopping_basket</i>
+                            <span>PRODUCTOS</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="#">Registrar</a>
+                            </li>
+                            <li>
+                                <a href="#">Listar / Modificar</a>
+                            </li>
+                        </ul>
+                    </li>
+<!--======================================================================================================-->
+					<li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">low_priority</i>
+                            <span>CATEGORÍAS</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="#">Registrar</a>
+                            </li>
+                            <li>
+                                <a href="#">Listar / Modificar</a>
+                            </li>
+                        </ul>
+                    </li>
+<!--======================================================================================================-->
+					<li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">supervisor_account</i>
+                            <span>CLIENTES</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="#">Registrar</a>
+                            </li>
+                            <li>
+                                <a href="#">Listar / Modificar</a>
+                            </li>
+                        </ul>
+                    </li>
+<!--======================================================================================================-->
+					<li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">monetization_on</i>
+                            <span>FACTURACIÓN</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="#">Crear Factura</a>
+                            </li>
+                        </ul>
+                    </li>
+<!--======================================================================================================-->
+					<li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">business</i>
+                            <span>PROVEEDORES</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="#">Registrar</a>
+                            </li>
+                            <li>
+                                <a href="#">Listar / Modificar</a>
+                            </li>
+                        </ul>
+                    </li>
+<!--======================================================================================================-->
+					<li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">person_pin</i>
+                            <span>PERSONAL</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="#">Registrar</a>
+                            </li>
+                            <li>
+                                <a href="#">Listar / Modificar</a>
+                            </li>
+                        </ul>
+                    </li>
+<!--======================================================================================================-->
+                    <li class="active">
+                        <a href="../Seleccion.html">
+                            <i class="material-icons">trending_up</i>
+                            <span>REPORTES</span>
+                        </a>
+                    </li>
+<!--======================================================================================================-->
+        <aside id="rightsidebar" class="right-sidebar">
+        </aside>
+    </section>
+
+
+
+<!--=============================================================CONTENIDO DE LA PÁGINA =============================================================-->
+            
+    <section class="content"><br>
+        <div class="container-fluid">
+            <div class="block-header">
+               <h2> <font size="5"><b>Clic sobre el Recuadro para Generar el Reporte Visual que desee</b></font></h2>
+
+            </div><br><br>
+                            <a type="button" href="../index.html" class="btn bg-red waves-effect">
+                                <span>MENÚ</span>
+                                <i class="material-icons">home</i>
+                            </a>
+                            <a type="button" href="../Seleccion.html" class="btn bg-light-green waves-effect">
+                                <span>VOLVER</span>
+                                <i class="material-icons">call_missed_outgoing</i>
+                            </a>
+         </div><br><br>
+
+
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box-2 bg-pink hover-zoom-effect">
+                        <a href="#"><div class="icon">
+                            <i class="material-icons">shopping_basket</i>
+                        </div></a>
+                        <div class="content">
+                            <a href="#"><div class="text">PRODUCTOS</div></a>
+                            <div class="number">5000</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box-2 bg-blue hover-zoom-effect">
+                        <a href="#"><div class="icon">
+                            <i class="material-icons">low_priority</i>
+                        </div></a>
+                        <div class="content">
+                            <a href="#"><div class="text">CATEGORÍAS</div></a>
+                            <div class="number">50</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box-2 bg-light-green hover-zoom-effect">
+                         <a href="#"><div class="icon">
+                            <i class="material-icons">supervisor_account</i>
+                        </div></a>
+                        <div class="content">
+                            <a href="#"><div class="text">CLIENTES</div></a>
+                            <div class="number">675</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box-2 bg-orange hover-zoom-effect">
+                        <a href="#"><div class="icon">
+                            <i class="material-icons">monetization_on</i>
+                        </div></a>
+                        <div class="content">
+                            <a href="#"><div class="text">FACTURACIÓN</div></a>
+                            <div class="number">800</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                </div>
+
+                
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box-2 bg-grey hover-zoom-effect">
+                        <a href="#"><div class="icon">
+                            <i class="material-icons">business</i>
+                        </div></a>
+                        <div class="content">
+                            <a href="#"><div class="text">PROVEEDORES</div></a>
+                            <div class="number">29</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box-2 bg-blue hover-zoom-effect">
+                        <a href="#"><div class="icon">
+                            <i class="material-icons">person_pin</i>
+                        </div></a>
+                        <div class="content">
+                            <a href="#"><div class="text">PERSONAL</div></a>
+                            <div class="number">12</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- #END# Colored Card - With Loading -->
+<!--=============================================================CONTENIDO DE LA PÁGINA =============================================================-->
+
+
+    <!-- Jquery Core Js -->
+    <script src="../plugins/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core Js -->
+    <script src="../plugins/bootstrap/js/bootstrap.js"></script>
+
+    <!-- Js Booststrap -->
+    <script src="../plugins/bootstrap-select/js/bootstrap-select.js"></script>
+
+    <!--Js Scroll - Barra de Desplazamiento del Menú -->
+    <script src="../plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+
+    <!--Js Efectos de Página Completa -->
+    <script src="../plugins/node-waves/waves.js"></script>
+
+    <!-- JS Conteo de Números del SubMenú-->
+    <script src="../plugins/jquery-countto/jquery.countTo.js"></script>
+
+    <!-- Custom Js -->
+    <script src="../js/admin.js"></script>
+    <script src="../js/pages/index.js"></script>
+
+
+
+</body>
+
+</html>
